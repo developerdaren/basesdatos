@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67b73504f38ccc47cc418bf9"
+  },
+  "tipo_cerveza": "Lager",
+  "cantidad_producida": 400,
+  "fecha_produccion": "2025-02-20"
+},
+{
+  "_id": {
+    "$oid": "67b73518f38ccc47cc418bfb"
+  },
+  "tipo_cerveza": "Ale",
+  "cantidad_producida": 200,
+  "fecha_produccion": "2025-02-21"
+},
+{
+  "_id": {
+    "$oid": "67b73530f38ccc47cc418bfd"
+  },
+  "tipo_cerveza": "Cerveza Fantasía",
+  "cantidad_producida": 150,
+  "fecha_produccion": "2025-02-22"
+},
+{
+  "_id": {
+    "$oid": "67b739bef38ccc47cc418c1b"
+  },
+  "tipo_cerveza": "Lager",
+  "cantidad_producida": 90,
+  "fecha_produccion": "2025-02-23"
+}]

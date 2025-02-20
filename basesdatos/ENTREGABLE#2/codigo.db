@@ -1,0 +1,72 @@
+create database cervezas;
+use cervezas;
+
+create table cerveza(
+id int auto_increment primary key,
+nombre varchar (50),
+detalle varchar (50)
+);
+
+create table cerveza_mprima(
+id int auto_increment primary key,
+cantidad int,
+unidad int (50)
+);
+
+create table materia_prima(
+id int auto_increment primary key,
+nombre varchar (50),
+detalle varchar (50)
+);
+
+create table categoria(
+id int auto_increment primary key,
+nombre varchar (50),
+detalle varchar (50)
+);
+
+create table tipo_categoria(
+id int auto_increment primary key
+);
+
+create table tipo(
+id int auto_increment primary key,
+nombre varchar (50)
+);
+
+describe tipo_categoria;
+
+ALTER TABLE cerveza_mprima
+ADD id_cerveza INT NOT NULL;
+
+alter table cerveza_mprima 
+add constraint fk_idcerveza
+foreign key (id_cerveza) references cerveza(id);
+
+ALTER TABLE cerveza_mprima
+ADD id_mprima INT NOT NULL;
+
+alter table cerveza_mprima 
+add constraint fk_idmprima
+foreign key (id_mprima) references materia_prima(id);
+
+ALTER TABLE cerveza
+ADD id_categoria INT NOT NULL;
+
+alter table cerveza 
+add constraint fk_cate
+foreign key (id_categoria) references cerveza(id);
+
+ALTER TABLE tipo_categoria
+ADD id_categoria INT NOT NULL;
+
+alter table tipo_categoria 
+add constraint fk_categori
+foreign key (id_categoria) references categoria(id);
+
+ALTER TABLE tipo_categoria
+ADD id_tipo INT NOT NULL;
+
+alter table tipo_categoria 
+add constraint fk_tipo
+foreign key (id_tipo) references tipo(id);

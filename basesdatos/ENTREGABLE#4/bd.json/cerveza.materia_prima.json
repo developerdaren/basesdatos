@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "67b73559f38ccc47cc418c00"
+  },
+  "ingrediente": "Malta",
+  "cantidad": "40 kg",
+  "usado_en": [
+    "Lager",
+    "Ale"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67b7356cf38ccc47cc418c02"
+  },
+  "ingrediente": "Lúpulo",
+  "cantidad": "10 kg",
+  "usado_en": [
+    "Lager",
+    "Cerveza Fantasía"
+  ]
+}]

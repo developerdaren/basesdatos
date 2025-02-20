@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "67b73597f38ccc47cc418c05"
+  },
+  "nombre": "Lager",
+  "descripcion": "Cerveza de fermentación baja, ligera y refrescante."
+},
+{
+  "_id": {
+    "$oid": "67b735a9f38ccc47cc418c07"
+  },
+  "nombre": "Ale",
+  "descripcion": "Cerveza de fermentación alta con sabores afrutados."
+},
+{
+  "_id": {
+    "$oid": "67b735baf38ccc47cc418c09"
+  },
+  "nombre": "Cerveza Fantasía",
+  "descripcion": "Un nuevo tipo de cerveza con un toque de innovación."
+}]
